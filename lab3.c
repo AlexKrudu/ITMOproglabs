@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main() {
+int main3() {
     int num, temp, task5, inverted, temp2;
     printf("Enter octal number \n");
     scanf("%o", &num);

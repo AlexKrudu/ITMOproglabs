@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main4(void) {
   int num, remnant;
   printf("Enter number(octal) \n");
   scanf("%o", &num);
