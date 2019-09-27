@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+int main5(void){
     int array[9] = {88, 112, 6467, 325, 878, 3, 77, 8, 99};
     int mat1[2][2] = {1, 1, 1, 4};
     int mat2[2][2] = {1, 2, 4, 1};
