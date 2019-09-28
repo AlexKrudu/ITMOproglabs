@@ -9,7 +9,7 @@ int main(void){
     arr[2] = 'l';
     arr[3] = 'l';
     arr[4] = 'o';
-    for (size_t i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%c ", arr[i]);
     }
     printf("\n");
@@ -20,7 +20,7 @@ int main(void){
     array[2] = 'l';
     array[3] = 'l';
     array[4] = 'o';
-    for (size_t i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", array[i]);
     }
     free(array);
