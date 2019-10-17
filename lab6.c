@@ -1,27 +1,28 @@
 #include <stdio.h>
 #include <malloc.h>
 
-int main(void){
+int main6(void) {
     int n = 5;
-    char *arr = (char *) _alloca(n * sizeof(char));
+    char* arr = (char* ) _alloca(n * sizeof(char));
     arr[0] = 'H';
     arr[1] = 'e';
     arr[2] = 'l';
     arr[3] = 'l';
     arr[4] = 'o';
-    for (size_t i = 0; i < n; i++) {
+    printf("%d", *arr);
+    for (int i = 0; i < n; i++) {
         printf("%c ", arr[i]);
     }
     printf("\n");
     char *array;
-    array = (char*)malloc(n);
+    array = (char *) malloc(n * sizeof(char));
     array[0] = 'H';
     array[1] = 'e';
     array[2] = 'l';
     array[3] = 'l';
     array[4] = 'o';
-    for (size_t i = 0; i < n; i++) {
-        printf("%d ", array[i]);
+    for (int i = 0; i < n; i++) {
+        printf("%c", array[i]);
     }
     free(array);
     return 0;
