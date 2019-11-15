@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-int main(void){
+int main6(void){
     int n = 5;
     char *arr = (char *) _alloca(n * sizeof(char));
     arr[0] = 'H';

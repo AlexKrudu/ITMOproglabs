@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void) {
+int main8(void) {
     char string1[128];
     char string2[128];
     int n, result = -1;
